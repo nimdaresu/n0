@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-          paragraph paragram paran0</code>
+          paragraph paragram <code>paran0</code>
         </p>
       </main>
 
