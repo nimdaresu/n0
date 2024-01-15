@@ -1,13 +1,13 @@
-describe('test', () => {
+describe('sample test', () => {
   beforeEach(() => {
     cy.visit('/')
   })
 
   it('displays the resources text', () => {
     cy.get('h1')
-    .contains('h1 load n0');
+    .contains('Welcome to my app!');
   })
-  it('render logo image', () => {
+  it('renders the Netlify logo image', () => {
     cy.get('img')
     .should('be.visible')
     .and(($img) => {
