@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="n0 next n0xt" />
         <p className="description">
           paragraph paragram <code>paran0</code>
         </p>
